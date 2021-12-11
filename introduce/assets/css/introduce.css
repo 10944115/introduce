@@ -1,0 +1,240 @@
+body{
+    height: 3700px;
+    background: -webkit-linear-gradient(#FFF0F5,#E6E6FA);
+    background: -o-linear-gradient(#FFF0F5,#E6E6FA);
+    background: -moz-linear-gradient(#FFF0F5,#E6E6FA);
+    background: linear-gradient(#FFF0F5,#E6E6FA);
+}
+a{
+color: black;
+}
+header{
+    padding: 10px 0 20px 10%;
+    font-weight: bold;
+}
+.menu{
+    font-size: 20px;
+}
+#about{
+    background-image:url(../img/bg1.jpg);
+    background-size:1650px 600px;
+    background-repeat: no-repeat;
+    padding: 20px 0 0 40px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.myphoto{
+    height: 200px;
+    width: 200px;
+    margin: 10px 0 5px 15px;
+    box-shadow: 10px 3px 12px rgb(101, 102,103); 
+}
+.social{
+    height: 52px;
+    width: 52px;
+    padding: 15px 0 10px 21px;
+}
+.social:hover {
+    height: 55px;
+    width: 55px;
+}
+.me {
+    padding-right: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.me pre {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.line{
+    padding: 10px 30px 5px 10px ;
+    font-size: 40px;
+    letter-spacing: 30px;
+    color: #FFFAFA;
+    text-align: center;
+}
+.title2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 3% 15px;
+
+}
+#skills{
+    background-color:rgb(230,225,215);
+    padding: 20px 0 0 40px ;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+#programming{
+    background-color:rgb(230,225,215);
+    padding: 20px 0 0 40px ;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+#experience{
+    background-color:rgb(230,225,215);
+    padding: 20px 0 0 40px ;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+#project{
+    background-color:rgb(230,225,215);
+    padding: 20px 0 0 40px ;
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+.between {
+    display: flex;
+    justify-content: space-around;
+}
+
+.between h3 {
+    padding: 10px 0 0 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+.xp-img {
+    width:400px;
+    height:300px;
+    border:6px #FFF0F5 dashed;
+    border-radius: 18px;
+}
+.container-xp1 {
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 3% 0 0 0;
+  }
+  
+  .container-xp2 {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 3% 0 0 0;
+  }
+  .info p{
+      font-size:25px;
+      color: black;
+      margin: 30px;
+      font-weight: bold;
+      text-align: left;
+  }
+  
+  .info {
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.65);
+    color: white;
+    font-size: 22px;
+    top: 0px;
+    left: 0px;
+    border-radius: 18px;
+    width: 410px;
+    height: 310px;
+  }
+  
+  .info:hover {
+    opacity: 1;
+    transition: opacity 0.8s;
+  }
+  .photo{
+    width:460px;
+    height:300px;
+    border-radius: 18px;
+    margin: 15px;
+  }
+  .word1{
+    background-color: rgba(117, 117, 115,0.65);
+    width: 460px;
+    height: 300px;
+    border-radius: 18px;
+    color:white;
+    margin: 15px;
+  }
+  .title3{
+    text-align: left;
+    margin: 10px;
+  }
+  .word2{
+    font-size:1.5em ;
+    margin: 10px;
+  }
+  .p1{
+    height: 40px;
+    margin: 0 0  0 10px;
+    
+  }
+.title4{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.tr2,.td2{
+    width: 55%;
+}
+.study{
+    padding-top: 30px;
+    font-size:18px;
+}
+.list ul {
+    margin-left: 55px;
+}
+
+.word3 {
+    font-weight: bolder;
+    font-size: 20px;
+    transition: .5s;
+}
+.study:hover .word3 {
+    font-size: 25px;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(166, 155,149);
+    padding: 20px 0 20px 40px ;
+    margin: 0 10% 0 10%;
+}
+/* gotop*/
+
+#gotop {
+    position: fixed;
+    z-index: 90;
+    right: 5%;
+    bottom: 40px;
+    display: none;
+    width: 60px;
+    height: 60px;
+    color: white;
+    background:	#D8BFD8;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 8px;
+}
+.hide {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
