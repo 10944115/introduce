@@ -1,0 +1,262 @@
+.td1, tr1 {
+    width: 27%;
+    height: 27%;
+    
+}
+.box{
+    margin:0 0 0 80px;    
+}
+.circle-wrap{
+    margin: 50px 0 0 20px;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.mask .fill {
+  clip: rect(0px, 75px, 160px, 0px);
+  background-color:#C0C0C0;
+}
+.circle-wrap .circle .mask {
+    clip: rect(0px, 155px, 150px, 75px);
+  }
+  
+  .mask.full,
+  .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(120deg);
+  }
+  
+  @keyframes fill{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(120deg);
+    }
+  }
+  [class*=inside-circle] {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background:rgb(230,225,215);
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color:#BC8F8F;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  [class~=inside-circle1]:hover{
+	background-image: url("../img/guitar.png");
+	background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.percent:hover{
+    color:rgb(82,91,102);
+    z-index: -1000000000;
+}
+  /*圖二*/
+  .circle-wrap2{
+    margin: 50px 0 0 20px;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+.fill2 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 50%;
+	clip: rect(0px, 75px, 150px, 0px);
+	background-color:	#A9A9A9;
+  }
+  
+.mask.full2, .fill2 {
+	animation: fill2 ease-in-out 3s;
+	transform: rotate(160deg);
+  }
+  
+@keyframes fill2 {
+  0% {
+	transform: rotate(0deg);
+  }
+  100% {
+	transform: rotate(160deg);
+  }
+}
+
+[class~=inside-circle2]:hover{
+	background-image: url("../img/painting.png");
+	background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*圖三*/
+.circle-wrap3{
+    margin: 50px 0 0 20px;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+.fill3 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 50%;
+	clip: rect(0px, 75px, 150px, 0px);
+	background-color:	#808080;
+  }
+  
+.mask.full3, .fill3 {
+	animation: fill3 ease-in-out 3s;
+	transform: rotate(150deg);
+  }
+  
+@keyframes fill3 {
+  0% {
+	transform: rotate(0deg);
+  }
+  100% {
+	transform: rotate(150deg);
+  }
+}
+[class~=inside-circle3]:hover{
+	background-image: url("../img/videocamera.png");
+	background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*圖四*/
+.circle-wrap4{
+    margin: 50px 0 0 20px;
+    width: 150px;
+    height: 150px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+.fill4 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 50%;
+	clip: rect(0px, 75px, 150px, 0px);
+	background-color:	#696969;
+  }
+  
+.mask.full4, .fill4 {
+	animation: fill4 ease-in-out 3s;
+	transform: rotate(140deg);
+  }
+  
+@keyframes fill4 {
+  0% {
+	transform: rotate(0deg);
+  }
+  100% {
+	transform: rotate(140deg);
+  }
+}
+
+.word{
+	position: absolute;
+	top: 140px;
+	font-size: 25px;  
+	text-indent: 15px;
+	
+  }
+  [class~=inside-circle4]:hover{
+	background-image: url("../img/monitor.png");
+	background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*長條圖*/
+.container{
+    /*width: 50%;*/
+    margin: 50px 0 0 0px;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: #EEE;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #f3b0ff;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+  
+  .bar.front::before{
+    background-color:rgb(223, 184, 194);
+  }
+  .bar.back::before{
+    background-color:rgb(143, 161, 175);
+  }
+  .bar.basic::before{
+    width: calc(70% - 10px);
+  }
+  .bar.intermediate::before{
+    width: calc(80% - 10px);
+  }
+  .bar.advanced::before{
+    width: calc(80% - 10px);
+  }
+  .bar.expert::before{
+    width: calc(70% - 10px);
+  }
+  
+
+
+
+
+
